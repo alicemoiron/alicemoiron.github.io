@@ -1,0 +1,472 @@
+/*----------------------------------------------------------*/
+/*Balises communes*/
+/*----------------------------------------------------------*/
+
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #ece9bb; 
+	font-family: 'Century Gothic', sans-serif; 
+	min-width: 600px;
+}
+section
+{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.titre
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	height: 15%;
+	padding-top: 20px;
+}
+.texte_titre
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	height: 80%
+	margin-top: 20px;
+}
+.bloc
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	height: 85%;
+	width: 100%;
+}
+.trait_soulignement
+{
+	border-bottom: 4px solid #F19A3E; /*#347865*/
+	width: 250px;
+	margin-bottom: 15px;
+}
+.logo
+{
+	width: 30%;
+	height: 30%;
+	min-width: 40px;
+	min-height: 40px;
+}
+h1, h2
+{
+	color: #403233;
+	font-weight: bold;
+}
+/*---------------------------------------------------------*/
+/*1ère page*/
+/*---------------------------------------------------------*/
+#frontpage
+{
+	background-image: url(images/fond2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#presentation_cadre
+{
+	width: 100%;
+	height: 100%;
+	background-image: url(images/cadrenom.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*----------------------------------------------------------*/
+/*Section CV*/
+/*----------------------------------------------------------*/
+
+#bloc_CV
+{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	height: 100%;
+	width: 100%;
+	background-image: url(images/fond40.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#competences
+{
+	width: 40%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 20px;
+}
+.comp
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#html_barre
+{
+	border: 1px solid #2e715f;
+	width: 75%;
+	height: 25px;
+	border-radius: 5px;
+}
+#html_rempl
+{
+	height: 25px;
+	width: 50%;
+	background-color: #2e715f;
+	border-radius: 2px;
+}
+#css_barre
+{
+	border: 1px solid #2e715f;
+	width: 75%;
+	height: 25px;
+	border-radius: 5px;
+}
+#css_rempl
+{
+	height: 25px;
+	width: 50%;
+	background-color: #2e715f;
+	border-radius: 2px;
+}
+#js_barre
+{
+	border: 1px solid #2e715f;
+	width: 75%;
+	height: 25px;
+	border-radius: 5px;
+}
+#js_rempl
+{
+	height: 25px;
+	width: 15%;
+	background-color: #2e715f;
+	border-radius: 2px;
+}
+#php_barre
+{
+	border: 1px solid #2e715f;
+	width: 75%;
+	height: 25px;
+	border-radius: 5px;
+}
+#php_rempl
+{
+	height: 25px;
+	border-radius: 2px;
+	text-align: center;
+}
+#mysql_barre
+{
+	border: 1px solid #2e715f;
+	width: 75%;
+	height: 25px;
+	border-radius: 5px;
+}
+#mysql_rempl
+{
+	height: 25px;
+	border-radius: 2px;
+	text-align: center;
+}
+#photo
+{
+	width: 100%;
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+}
+#flottant
+{
+	border-radius: 50%;
+	border: 1px solid #9db696;
+}
+#presentation
+{
+	width: 60%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 50%;
+}
+#texte_presentation
+{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	height: 50%;
+	justify-content: center;
+}
+.logo_comp
+{
+	width: 64px;
+	height: 64px;
+}
+
+/*----------------------------------------------------------*/
+/*Section contact*/
+/*----------------------------------------------------------*/
+.bloc_contact
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	height: 85%;
+	width: 100%;
+	background-image: url(images/fond40.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header
+{
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	height: 20%;
+}
+#coord_contact
+{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+#colonne_coord
+{
+	width: 50%;
+	height: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#titre_contact
+{
+	width: 100%;
+	text-align: center;
+}
+.moyen_contact
+{
+	display: flex;
+	align-items: center;
+}
+.icone3
+{
+	width: 20%;
+	height: 20%;
+	min-width: 50px;
+	min-height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.texte_contact
+{
+	text-align: center;
+	width: 70%;
+}
+#telechargement
+{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#bouton
+{
+	display: block;
+	/*width: 200px;
+	height: 50px;*/
+	width: 200px;
+	height: 100%;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #F19A3E;
+	border-radius: 2px;
+	text-decoration: none;
+	color: black;
+	background-color: #ececcc;
+}
+#colonne_formulaire
+{
+	width: 50%;
+	height: 95%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#titre_formulaire
+{
+	text-align: center;
+}
+#formulaire_contact
+{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	align-items: flex-start;
+	padding-top: 10px;
+}
+#droits
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+}
+footer
+{
+	display: flex;
+	width: 100%;
+	height: 5%;
+	padding-bottom: 5px;
+}
+#cthulhu
+{
+	display: flex;
+	justify-content: flex-end;
+	width: 10%;
+}
+#image_cthulhu
+{
+	width: 30px;
+	padding-right: 5px;
+}
+
+/*---------------------------------------------------------*/
+/*Formulaire de contact*/
+/*---------------------------------------------------------*/
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 0 auto;
+  width: 400px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+  background-color: #ececcc;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+}
+
+button {
+  /* Cette marge supplémentaire représente grosso modo le même espace que celui
+     entre les étiquettes et les champs texte */
+  margin-left: 8.5em;
+}
+
+/*--------------------------------------------------------------*/
+/*Propriétés CSS pour petits écrans*/
+/*-------------------------------------------------------------*/
+@media screen and (max-width: 1024px){
+	.bloc_contact
+		{
+			display: flex;
+			flex-direction: column;
+			/*align-items: center;
+			align-content: center;*/
+			height: 100%;
+			width: 100%;
+			background-image: url(images/fond40.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		header
+		{
+			display: none;
+		}
+		#coord_contact
+		{
+			display: flex;
+			flex-direction: column;
+		}
+		#colonne_coord
+		{
+			width: 100%;
+			height: 45%;
+		}
+		#colonne_formulaire
+		{
+			width: 100%;
+			height: 50%;
+			display: flex;
+			flex-direction: column;
+		}
+		#titre_formulaire
+		{
+			text-align: center;
+		}
+		#formulaire_contact
+		{
+			width: 100%;
+			height: 100%;
+			display: flex;
+		}
+}
